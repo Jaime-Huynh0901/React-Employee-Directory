@@ -1,68 +1,60 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React-Employee-Directory
 
-## Available Scripts
+![Project license badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
-In the project directory, you can run:
+The goal was to create an employee directory using React.js. This involved breaking up your application's UI into components, managing component state, and responding to user events. 
 
-### `yarn start`
+Explore the application here: https://th-employee-directory.herokuapp.com/
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# Table of Contents
+  * [User Story](#User-Story)
+  * [Installation](#Installation)
+  * [Deployed](#Deployed)
+  * [Usage](#Usage)
+  * [Contributing](#Contributing)
+  * [License](#License)
+  * [Tests](#License)
+  * [Questions](#Questions)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## User Story
+```
+As a user, I WANT to be able to view my entire employee directory at once,
+SO THAT I have quick access to their information.
+```
 
-### `yarn test`
+## Installation
+```
+i. Fork the Github repository.
+ii. Clone the forked repo into your local machine using gitbash/terminal to pull the project and data.
+iii. Run the command-lines to run the app functionality. You can also access the files and assets via Visual Studio to view the code. 
+iv. 1. npm install // 2. npm start
+v. Explore the app.
+```
+## Deployed
+Deployed application in Heroku: https://th-employee-directory.herokuapp.com/
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
+```
+Technologies Used:
+React.js - ReactDOM.render - components - state - props - classes - hooks - axios - Random Users API
+```
+An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 
-### `yarn build`
+Given a table of random users, when the user loads the page, a table of employees should render. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The user should be able to:
+  * Sort the table by at least one category
+  * Filter the users by at least one property.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Contributing
+Pull requests are welcome. Please use the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/2/0/code_of_conduct/code_of_conduct.md) and for major changes, please open an issue beforehand to discuss the changes.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## License 
+[MIT]
 
-### `yarn eject`
+## Tests 
+There are currently no tests for this project.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Questions  
+Have questions? Contact me at:
+##### Email: taihuynh@gmail.com
